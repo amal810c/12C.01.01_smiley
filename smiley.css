@@ -1,0 +1,21 @@
+#face {
+  fill: rgb(255, 237, 36);
+}
+
+.eyes {
+  fill: black;
+}
+
+.blush {
+  animation: blush_kf 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blush_kf {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
